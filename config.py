@@ -38,7 +38,7 @@ BOT_NAME = getenv("BOT_NAME", "ShinobuXMusic")
 
 API_ID = int(getenv("API_ID", "8186557"))
 API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
-MONGO_DB_URL = getenv("MONGO_DB_URL "mongodb+srv://fusionfiner:shinobu@cluster0.6yxyssa.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URL = getenv("MONGO_DB_URL","mongodb+srv://fusionfiner:shinobu@cluster0.6yxyssa.mongodb.net/?retryWrites=true&w=majority")
 OWNER_NAME = getenv("OWNER_NAME", "Zen")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Im_lelouch1")
 ALIVE_NAME = getenv("ALIVE_NAME", "Shinobu")
